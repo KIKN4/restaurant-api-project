@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="../images/logo.png" type="x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/6f1921bb3a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="order.js"></script>
+    <link rel="stylesheet" href="order.css" />
+    <title>B&H | Order</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="headerbar">
+          <div class="account">
+            <ul>
+              <a href="">
+                <li>
+                  <i class="fa-solid fa-house-chimney"></i>
+                </li>
+              </a>
+              <div class="logo">
+                <img src="../images/logo.png" alt="" />
+              </div>
+
+              <a href="#">
+                <li>
+                  <i class="fa-solid fa-user" id="user-mb"></i>
+                </li>
+              </a>
+            </ul>
+          </div>
+          <div class="nav">
+            <ul>
+              <a href="../index.html">
+                <li>Home</li>
+              </a>
+              <a href="">
+                <li>About</li>
+              </a>
+              <a href="../menu-html/menu.html">
+                <li>Menu</li>
+              </a>
+              <a href="./order.html">
+                <li>Order</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div class="logo">
+          <a href="../index.html"><img src="../images/logo.png" alt="" /></a>
+        </div>
+        <div id="adress">
+          <h5>Ivane Javakhishvili #63</h5>
+        </div>
+        <div class="bar">
+          <i class="fa solid fa-bars"></i>
+          <i class="fa solid fa-xmark" id="hdcross"></i>
+        </div>
+        <div class="nav">
+          <ul>
+            <a href="../index.html">
+              <li>Home</li>
+            </a>
+            <a href="">
+              <li>About</li>
+            </a>
+            <a href="../menu-html/menu.html">
+              <li>Menu</li>
+            </a>
+            <a href="./order.html">
+              <li>Order</li>
+            </a>
+          </ul>
+        </div>
+        <div class="account">
+          <ul>
+            <a href="#">
+              <li>
+                <i class="fa-solid fa-house"></i>
+              </li>
+            </a>
+            <a href="#">
+              <li>
+                <i class="fa-solid fa-user" id="user-lap"></i>
+              </li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="sidebar">
+        <div class="sidehead">
+          <div class="searchbar">
+            <input
+              placeholder="Search..."
+              id="searchBar"
+              name="searchBar"
+              type="text"
+            />
+            <i class="fa-solid fa-magnifying-glass glass" id="searchButton"></i>
+          </div>
+        </div>
+        <div class="sidebody">
+          <fieldset>
+            <legend>პროდუქტის ტიპი</legend>
+
+            <div>
+              <input type="checkbox" id="bread" name="bread" />
+              <label for="bread">პური</label>
+            </div>
+
+            <div>
+              <input type="checkbox" id="bulk" name="bulk" />
+              <label for="bulk">ბულკი</label>
+            </div>
+          </fieldset>
+        </div>
+        <div class="sidefoot">
+          <hr style="margin: 5px 0; border: 1px solid #eee" />
+          <div class="social-icons">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-square-github"></i>
+          </div>
+        </div>
+      </div>
+      <div class="data">
+        <div id="grid"></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-1">
+        <div class="logo">
+          <img src="../images/logo.png" alt="" />
+        </div>
+      </div>
+      <div class="footer-2">
+        <div>
+          <a href="#"
+            ><i class="fa-solid fa-location-dot"></i> Ivane Javakhishvili #63
+          </a>
+          <a href="#"><i class="fa-solid fa-phone"></i> +9955954422</a>
+          <a href="#"
+            ><i class="fa-solid fa-message"></i> bakeryhouse@gmail.com</a
+          >
+        </div>
+      </div>
+      <div class="footer-3">
+        <div>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
