@@ -4,7 +4,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 
 .headerbar {
@@ -19,7 +19,7 @@
   width: 100px;
 }
 
-#adress h5 {
+#adress {
   font-size: 1.2rem;
   font-family: "Courier New", Courier, monospace;
   margin: 0 10px;

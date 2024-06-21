@@ -134,7 +134,8 @@
   transform: translate(-50%, -50%);
   color: #fff;
   background-color: rgb(252, 184, 107);
-  border-radius: 1rem 0.2rem 1rem 1rem;
+  border-radius: 1rem;
+  border: 8px solid #f0f0f0;
   width: 50%;
   height: 70%;
   overflow-y: scroll;
@@ -143,7 +144,7 @@
 }
 
 .meal-details::-webkit-scrollbar {
-  width: 7px;
+  width: 5px;
 }
 
 .meal-details::-webkit-scrollbar-thumb {
@@ -451,6 +452,7 @@ input {
     width: 75px;
   }
 
+  /*  */
   .container {
     flex-direction: column;
     padding-top: 84px;
