@@ -705,3 +705,141 @@
     text-align: center;
   }
 }
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+
+.main_slide div:nth-child(1) {
+  animation: slideFromLeft 1s ease-out;
+}
+
+.main_slide div:nth-child(2) {
+  animation: slideFromRight 1s ease-out;
+}
+
+.food-items .item {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.food-items .item:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.food-items .item:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.food-items .item:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.main_slide2 .foodimg {
+  animation: slideFromLeft 1s ease-out;
+}
+
+.main_slide2 .question {
+  animation: slideFromRight 1s ease-out;
+}
+
+.q-ans {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.q-ans:nth-child(1) {
+  animation-delay: 0.3s;
+}
+
+.q-ans:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+.q-ans:nth-child(3) {
+  animation-delay: 0.9s;
+}
+
+.main_slide3 .fav-head {
+  animation: fadeIn 1s ease-out;
+}
+
+.main_slide3 .fav-food .item {
+  opacity: 0;
+  animation: scaleIn 0.8s ease-out forwards;
+}
+
+.main_slide3 .fav-food .item:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.main_slide3 .fav-food .item:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.main_slide3 .fav-food .item:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.main_slide4 .chef-feed {
+  animation: slideFromLeft 1s ease-out;
+}
+
+.main_slide4 .chef {
+  animation: slideFromRight 1s ease-out;
+}
+
+.letter {
+  animation: fadeIn 1s ease-out;
+}
+
+.footer {
+  animation: fadeIn 0.8s ease-out;
+}
+
+@media only screen and (max-width: 780px) {
+  .headerbar {
+    animation: slideFromRight 0.5s ease-out;
+  }
+}
